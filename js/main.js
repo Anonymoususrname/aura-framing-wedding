@@ -18,7 +18,7 @@ function footerHTML(tagline = 'Crafting extraordinary weddings and celebrations 
   <footer>
     <div class="footer-top">
       <div>
-        <div class="footer-brand">Eternelle</div>
+        <div class="footer-brand">AURA FRAMING</div>
         <p class="footer-tagline">${tagline}</p>
       </div>
       <div class="footer-col">
@@ -32,23 +32,23 @@ function footerHTML(tagline = 'Crafting extraordinary weddings and celebrations 
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:hello@eternelle.co">hello@eternelle.co</a>
-        <a href="tel:+919876543210">+91 98765 43210</a>
-        <a href="#">123 Garden Lane, Thrissur</a>
+        <a href="mailto:naveenpunith01@gmail.com">naveenpunith01@gmail.com</a>
+        <a href="tel:+917708697816">+91 77086 97816</a>
+        <a href="#">Perur,Coimbatore,Tamil Nadu</a>
       </div>
       <div class="footer-col">
         <h4>Follow</h4>
         <a href="#">Instagram</a>
-        <a href="#">Pinterest</a>
-        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">Whatsapp</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">© 2026 Eternelle Events. All rights reserved.</p>
+      <p class="footer-copy">© 2026 AURA FRAMING. All rights reserved.</p>
       <div class="social-links">
         <a href="#">Instagram</a>
-        <a href="#">Pinterest</a>
-        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">Whatsapp</a>
       </div>
     </div>
   </footer>`;
@@ -174,15 +174,15 @@ document.getElementById('page-about').innerHTML = /* html */`
     <div class="page-hero-bg about-hero-bg"></div>
     <div class="page-hero-content">
       <span class="section-tag">Our Story</span>
-      <h1 class="page-hero-title">We Are <em>Eternelle</em></h1>
+      <h1 class="page-hero-title">We Are <em>AURA FRAMING</em></h1>
     </div>
   </div>
 
   <div class="about-grid">
     <div class="about-content reveal">
-      <span class="section-tag">Since 2010</span>
+      <span class="section-tag">Since 2022</span>
       <h2 class="section-title">Born from a <em>love</em> of love.</h2>
-      <p>Eternelle was founded by Maya Krishnan, a former event designer who fell in love with the transformative power of a perfectly planned celebration. What began as a boutique studio in Thrissur has grown into a full-service luxury wedding company trusted by discerning couples across India and beyond.</p>
+      <p>AURA FRAMING was founded by PRABHU DEV, a former event designer who fell in love with the transformative power of a perfectly planned celebration. What began as a boutique studio in Coimbatore has grown into a full-service luxury wedding company trusted by discerning couples across India and beyond.</p>
       <p>Our team of 35+ dedicated professionals brings together backgrounds in interior design, culinary arts, photography, floristry, and hospitality — united by a single purpose: to make your most important day extraordinary in every conceivable way.</p>
       <p>We don't just plan weddings. We architect memories, curate emotions, and create the stage upon which the most beautiful chapter of your story begins.</p>
     </div>
@@ -215,13 +215,13 @@ document.getElementById('page-about').innerHTML = /* html */`
     <div class="team-grid">
       <div class="team-card reveal">
         <div class="team-img"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Maya Krishnan" loading="lazy"></div>
-        <h3>Maya Krishnan</h3>
-        <div class="team-role">Founder &amp; Creative Director</div>
+        <h3>Prabhu Dev</h3>
+        <div class="team-role">Founder &amp; Creative Photographer</div>
       </div>
       <div class="team-card reveal">
         <div class="team-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Aryan Mehta" loading="lazy"></div>
-        <h3>Aryan Mehta</h3>
-        <div class="team-role">Lead Event Architect</div>
+        <h3>Naveen</h3>
+        <div class="team-role">Lead Editor</div>
       </div>
       <div class="team-card reveal">
         <div class="team-img"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=600&q=80" alt="Priya Nair" loading="lazy"></div>
@@ -394,12 +394,12 @@ document.getElementById('page-careers').innerHTML = /* html */`
 
   <div class="careers-intro">
     <div class="reveal">
-      <span class="section-tag">Why Eternelle</span>
+      <span class="section-tag">Why AURA FRAMING</span>
       <h2 class="section-title">Work where <em>passion</em> meets purpose.</h2>
     </div>
     <div class="careers-intro-grid">
       <div class="careers-intro-text reveal">
-        <p>At Eternelle, we are more than a workplace — we are a creative family united by a belief that every couple deserves an extraordinary beginning. We're always looking for passionate, talented individuals who want to make a tangible difference in the lives of others.</p>
+        <p>At AURA FRAMING, we are more than a workplace — we are a creative family united by a belief that every couple deserves an extraordinary beginning. We're always looking for passionate, talented individuals who want to make a tangible difference in the lives of others.</p>
         <p>Whether you're a seasoned event professional or a fresh creative talent eager to learn, we offer an environment where your growth is our priority and your work creates genuine joy in the world.</p>
       </div>
       <div class="perks-grid reveal">
@@ -523,9 +523,9 @@ document.getElementById('page-booking').innerHTML = /* html */`
 
       <!-- Right: info cards -->
       <div class="reveal" style="padding-top:20px">
-        <div class="info-card"><h4>📞 Prefer to Call?</h4><p>Our team is available Mon–Sat, 10am–7pm IST. Call +91 98765 43210 to speak with a planner right away.</p></div>
-        <div class="info-card"><h4>📅 Availability</h4><p>We take on a limited number of weddings each year to ensure every couple receives our full attention. Enquire 12–18 months ahead for peak dates.</p></div>
-        <div class="info-card"><h4>✈️ Destination Weddings</h4><p>We plan weddings across India, Southeast Asia, and Europe. Travel coordination is included in our Prestige package.</p></div>
+        <div class="info-card"><h4>📞 Prefer to Call?</h4><p>Our team is available Mon–SUN, 10am–10pm IST. Call +91 77086 97816 to speak with a planner right away.</p></div>
+        <div class="info-card"><h4>📅 Availability</h4><p>We take on a limited number of weddings each year to ensure every couple receives our full attention. Enquire 06–12 months ahead for peak dates.</p></div>
+        <div class="info-card"><h4>✈️ Destination Weddings</h4><p>We plan weddings across India.</p></div>
         <div class="info-card"><h4>💬 Response Time</h4><p>We respond to all consultation requests within 24 business hours. For urgent enquiries, please call us directly.</p></div>
       </div>
 
@@ -560,8 +560,8 @@ document.getElementById('page-contact').innerHTML = /* html */`
       <div class="reveal">
         <div class="contact-item"><span class="contact-item-label">Studio Address</span><div class="contact-item-value">123 Garden Lane, Sakthan Nagar<br>Thrissur, Kerala — 680 001</div></div>
         <div class="contact-item"><span class="contact-item-label">Email</span><div class="contact-item-value"><a href="mailto:hello@eternelle.co">hello@eternelle.co</a></div></div>
-        <div class="contact-item"><span class="contact-item-label">Phone</span><div class="contact-item-value"><a href="tel:+919876543210">+91 98765 43210</a></div></div>
-        <div class="contact-item"><span class="contact-item-label">WhatsApp</span><div class="contact-item-value"><a href="#">+91 98765 43210</a></div></div>
+        <div class="contact-item"><span class="contact-item-label">Phone</span><div class="contact-item-value"><a href="tel:+917708697816">+91 77086 97816</a></div></div>
+        <div class="contact-item"><span class="contact-item-label">WhatsApp</span><div class="contact-item-value"><a href="#">+91 77086 97816</a></div></div>
         <div class="contact-hours">
           <h3>Studio <em>Hours</em></h3>
           <div class="hours-row"><span>Monday – Friday</span><span>10:00 AM – 7:00 PM</span></div>
