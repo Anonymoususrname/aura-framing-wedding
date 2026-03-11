@@ -1,0 +1,98 @@
+/* ═══════════════════════════════════════════════
+   BASE.CSS
+   CSS custom properties, reset, root typography
+═══════════════════════════════════════════════ */
+
+/* ── Design Tokens ───────────────────────────── */
+:root {
+  /* Colors */
+  --cream:      #faf6f0;
+  --ivory:      #f5ede0;
+  --gold:       #c9a96e;
+  --gold-light: #e8d5b0;
+  --gold-dark:  #9a7a45;
+  --charcoal:   #1a1714;
+  --warm-gray:  #6b6259;
+  --blush:      #e8c4b8;
+  --sage:       #8a9e84;
+  --deep:       #12100e;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Jost', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-xs:  8px;
+  --space-sm:  16px;
+  --space-md:  30px;
+  --space-lg:  60px;
+  --space-xl:  100px;
+  --space-2xl: 120px;
+
+  /* Transitions */
+  --ease-smooth: cubic-bezier(0.77, 0, 0.175, 1);
+  --duration-fast:   0.3s;
+  --duration-normal: 0.5s;
+  --duration-slow:   0.8s;
+}
+
+/* ── Reset ───────────────────────────────────── */
+*,
+*::before,
+*::after {
+  margin:     0;
+  padding:    0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family:       var(--font-sans);
+  background-color:  var(--cream);
+  color:             var(--charcoal);
+  overflow-x:        hidden;
+  cursor:            none;          /* replaced by custom cursor */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color:           inherit;
+  cursor:          none;
+}
+
+ul { list-style: none; }
+
+button {
+  background: none;
+  border:     none;
+  cursor:     none;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-sans);
+}
+
+/* ── Base Typography ─────────────────────────── */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.85;
+}

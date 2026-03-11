@@ -1,0 +1,558 @@
+/* ═══════════════════════════════════════════════
+   COMPONENTS.CSS
+   Reusable UI pieces used across multiple pages:
+   cursor, loader, section headers, buttons,
+   forms, service cards, pricing cards,
+   testimonial carousel, gallery, marquee.
+═══════════════════════════════════════════════ */
+
+/* ── Custom Cursor ───────────────────────────── */
+.cursor {
+  width:          10px;
+  height:         10px;
+  background:     var(--gold);
+  border-radius:  50%;
+  position:       fixed;
+  top: 0; left: 0;
+  pointer-events: none;
+  z-index:        9999;
+  transition:     transform 0.1s ease;
+  mix-blend-mode: multiply;
+}
+
+.cursor-ring {
+  width:          36px;
+  height:         36px;
+  border:         1px solid var(--gold);
+  border-radius:  50%;
+  position:       fixed;
+  top: 0; left: 0;
+  pointer-events: none;
+  z-index:        9998;
+  transition:     transform 0.18s ease, opacity 0.3s;
+  transform:      translate(-13px, -13px);
+}
+
+/* ── Intro Loader ────────────────────────────── */
+#loader {
+  position:        fixed;
+  inset:           0;
+  background:      var(--deep);
+  z-index:         10000;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  flex-direction:  column;
+  transition:      opacity 0.8s ease, visibility 0.8s;
+}
+
+#loader.hidden {
+  opacity:    0;
+  visibility: hidden;
+}
+
+.loader-text {
+  font-family:    var(--font-serif);
+  font-size:      clamp(2.5rem, 6vw, 5rem);
+  color:          var(--cream);
+  letter-spacing: 0.3em;
+  font-weight:    300;
+  animation:      anim-fade-up 1s ease forwards;
+}
+
+.loader-line {
+  width:      0;
+  height:     1px;
+  background: var(--gold);
+  margin-top: 20px;
+  animation:  anim-expand-line 1.5s ease 0.5s forwards;
+}
+
+/* ── Section Header Helpers ──────────────────── */
+.section-tag {
+  font-family:    var(--font-sans);
+  font-size:      0.65rem;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color:          var(--gold);
+  display:        block;
+  margin-bottom:  20px;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size:   clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  color:       var(--charcoal);
+}
+
+.section-title em {
+  font-style: italic;
+  color:      var(--gold-dark);
+}
+
+/* ── Buttons ─────────────────────────────────── */
+
+/* Ghost / outline button */
+.btn-outline {
+  display:        block;
+  text-align:     center;
+  padding:        14px 30px;
+  border:         1px solid var(--gold);
+  color:          var(--charcoal);
+  font-family:    var(--font-sans);
+  font-size:      0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  transition:     background var(--duration-fast),
+                  color var(--duration-fast),
+                  border-color var(--duration-fast);
+}
+
+.btn-outline:hover {
+  background:   var(--gold);
+  color:        var(--deep);
+  border-color: var(--gold);
+}
+
+/* Filled submit button */
+.btn-submit {
+  width:          100%;
+  padding:        18px;
+  background:     var(--charcoal);
+  color:          var(--cream);
+  border:         none;
+  font-family:    var(--font-sans);
+  font-size:      0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  transition:     background var(--duration-fast);
+}
+
+.btn-submit:hover { background: var(--gold-dark); }
+
+/* Hero CTA */
+.hero-cta {
+  display:        inline-flex;
+  align-items:    center;
+  gap:            16px;
+  padding:        16px 44px;
+  border:         1px solid var(--gold);
+  color:          var(--cream);
+  font-family:    var(--font-sans);
+  font-size:      0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  position:       relative;
+  overflow:       hidden;
+  transition:     color var(--duration-fast);
+}
+
+.hero-cta::before {
+  content:          '';
+  position:         absolute;
+  inset:            0;
+  background:       var(--gold);
+  transform:        translateX(-101%);
+  transition:       transform 0.4s var(--ease-smooth);
+}
+
+.hero-cta:hover::before { transform: translateX(0); }
+.hero-cta span           { position: relative; z-index: 1; }
+
+/* ── Forms ───────────────────────────────────── */
+.form-group   { margin-bottom: 28px; }
+
+.form-label {
+  display:        block;
+  font-family:    var(--font-sans);
+  font-size:      0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color:          var(--charcoal);
+  margin-bottom:  10px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width:       100%;
+  padding:     14px 18px;
+  background:  transparent;
+  border:      1px solid var(--gold-light);
+  color:       var(--charcoal);
+  font-family: var(--font-sans);
+  font-size:   0.9rem;
+  font-weight: 300;
+  outline:     none;
+  appearance:  none;
+  transition:  border-color var(--duration-fast);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus { border-color: var(--gold); }
+
+.form-textarea {
+  resize:     vertical;
+  min-height: 120px;
+}
+
+.form-row {
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  gap:                   20px;
+}
+
+/* ── Marquee / Ticker ────────────────────────── */
+.marquee-wrap {
+  background: var(--charcoal);
+  padding:    20px 0;
+  overflow:   hidden;
+  display:    flex;
+}
+
+.marquee-track {
+  display:    flex;
+  gap:        0;
+  animation:  anim-marquee 25s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-item {
+  font-family:    var(--font-serif);
+  font-size:      1.1rem;
+  color:          var(--gold-light);
+  letter-spacing: 0.15em;
+  font-style:     italic;
+  padding:        0 40px;
+  flex-shrink:    0;
+}
+
+.marquee-dot {
+  color:       var(--gold);
+  font-size:   0.5rem;
+  vertical-align: middle;
+}
+
+/* ── Service Cards (homepage grid) ──────────── */
+.services-grid {
+  display:               grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:                   2px;
+  background:            var(--charcoal);
+}
+
+.service-card {
+  background:  var(--cream);
+  padding:     60px 50px;
+  position:    relative;
+  overflow:    hidden;
+  transition:  background var(--duration-normal);
+}
+
+.service-card::before {
+  content:          '';
+  position:         absolute;
+  bottom: 0; left: 0;
+  width:            0;
+  height:           2px;
+  background:       var(--gold);
+  transition:       width 0.5s ease;
+}
+
+.service-card:hover             { background: var(--charcoal); }
+.service-card:hover::before     { width: 100%; }
+
+.service-icon {
+  font-size:     2.5rem;
+  margin-bottom: 30px;
+  display:       block;
+}
+
+.service-card h3 {
+  font-family:   var(--font-serif);
+  font-size:     1.8rem;
+  font-weight:   400;
+  margin-bottom: 15px;
+  transition:    color var(--duration-normal);
+}
+
+.service-card:hover h3 { color: var(--gold-light); }
+
+.service-card p {
+  font-size:   0.88rem;
+  line-height: 1.8;
+  color:       var(--warm-gray);
+  font-weight: 300;
+  transition:  color var(--duration-normal);
+}
+
+.service-card:hover p { color: rgba(250, 246, 240, 0.6); }
+
+/* ── Testimonial Carousel ────────────────────── */
+.testimonial-section {
+  background:  var(--charcoal);
+  padding:     120px 60px;
+  text-align:  center;
+}
+
+.testimonial-section .section-title { color: var(--cream); }
+
+.testimonial-carousel {
+  max-width:   700px;
+  margin:      60px auto 0;
+}
+
+.testimonial         { display: none; }
+.testimonial.active  { display: block; }
+
+.testimonial-quote {
+  font-family: var(--font-serif);
+  font-size:   1.6rem;
+  font-style:  italic;
+  color:       var(--ivory);
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.testimonial-author {
+  font-size:      0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color:          var(--gold);
+}
+
+.testimonial-dots {
+  display:         flex;
+  justify-content: center;
+  gap:             10px;
+  margin-top:      40px;
+}
+
+.t-dot {
+  width:         6px;
+  height:        6px;
+  border-radius: 50%;
+  background:    rgba(201, 169, 110, 0.3);
+  transition:    background var(--duration-fast),
+                 transform var(--duration-fast);
+}
+
+.t-dot.active {
+  background: var(--gold);
+  transform:  scale(1.4);
+}
+
+/* ── Photo Gallery Strip ─────────────────────── */
+.gallery-strip {
+  display:    flex;
+  gap:        4px;
+  overflow:   hidden;
+}
+
+.gallery-item {
+  flex:     1;
+  height:   400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width:       100%;
+  height:      100%;
+  object-fit:  cover;
+  transition:  transform 0.6s ease, filter 0.6s ease;
+  filter:      brightness(0.85);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+  filter:    brightness(1);
+}
+
+.gallery-item-overlay {
+  position:   absolute;
+  inset:      0;
+  background: linear-gradient(to top, rgba(18, 16, 14, 0.5), transparent);
+}
+
+/* ── Pricing Cards ───────────────────────────── */
+.pricing-grid {
+  display:               grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:                   2px;
+  background:            var(--charcoal);
+  margin-top:            60px;
+}
+
+.pricing-card {
+  background: var(--cream);
+  padding:    60px 50px;
+  position:   relative;
+}
+
+.pricing-card.featured { background: var(--charcoal); }
+
+.featured-tag {
+  position:       absolute;
+  top: 30px; right: 30px;
+  background:     var(--gold);
+  color:          var(--deep);
+  font-size:      0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding:        5px 12px;
+}
+
+.pricing-tier {
+  font-size:      0.65rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color:          var(--gold);
+  margin-bottom:  20px;
+  display:        block;
+}
+
+.pricing-price {
+  font-family:   var(--font-serif);
+  font-size:     3.5rem;
+  font-weight:   300;
+  color:         var(--charcoal);
+  line-height:   1;
+  margin-bottom: 8px;
+}
+
+.pricing-card.featured .pricing-price { color: var(--cream); }
+
+.pricing-from {
+  font-size:     0.75rem;
+  color:         var(--warm-gray);
+  margin-bottom: 40px;
+  font-weight:   300;
+}
+
+.pricing-card.featured .pricing-from { color: rgba(250, 246, 240, 0.5); }
+
+.pricing-features {
+  list-style:    none;
+  margin-bottom: 50px;
+}
+
+.pricing-features li {
+  padding:     10px 0;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.15);
+  font-size:   0.85rem;
+  color:       var(--warm-gray);
+  font-weight: 300;
+  display:     flex;
+  align-items: center;
+  gap:         10px;
+}
+
+.pricing-card.featured .pricing-features li { color: rgba(250, 246, 240, 0.6); }
+
+.pricing-features li::before {
+  content:    '✦';
+  color:      var(--gold);
+  font-size:  0.5rem;
+  flex-shrink: 0;
+}
+
+/* ── Job Listing Row ─────────────────────────── */
+.job-item {
+  display:               grid;
+  grid-template-columns: 1fr auto auto;
+  align-items:           center;
+  gap:                   40px;
+  padding:               36px 0;
+  border-bottom:         1px solid var(--gold-light);
+  transition:            padding-left var(--duration-fast);
+}
+
+.job-item:hover { padding-left: 20px; }
+
+.job-title {
+  font-family: var(--font-serif);
+  font-size:   1.6rem;
+  font-weight: 400;
+}
+
+.job-dept {
+  font-size:      0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color:          var(--gold);
+  margin-top:     6px;
+}
+
+.job-type {
+  font-size:   0.75rem;
+  color:       var(--warm-gray);
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.job-apply {
+  font-family:    var(--font-sans);
+  font-size:      0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color:          var(--charcoal);
+  border-bottom:  1px solid var(--charcoal);
+  padding-bottom: 2px;
+  white-space:    nowrap;
+  transition:     color var(--duration-fast), border-color var(--duration-fast);
+}
+
+.job-apply:hover {
+  color:         var(--gold);
+  border-color:  var(--gold);
+}
+
+/* ── Stat Row ────────────────────────────────── */
+.stat-row {
+  display:    flex;
+  gap:        60px;
+  margin-top: 50px;
+}
+
+.stat-num {
+  font-family: var(--font-serif);
+  font-size:   3.5rem;
+  font-weight: 300;
+  color:       var(--gold);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size:      0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color:          var(--warm-gray);
+  margin-top:     8px;
+}
+
+/* ── Info Cards (booking sidebar) ────────────── */
+.info-card {
+  background:    var(--ivory);
+  padding:       40px;
+  margin-bottom: 20px;
+  border-left:   2px solid var(--gold);
+}
+
+.info-card h4 {
+  font-family:   var(--font-serif);
+  font-size:     1.2rem;
+  font-weight:   400;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size:   0.85rem;
+  color:       var(--warm-gray);
+  line-height: 1.7;
+  font-weight: 300;
+}
