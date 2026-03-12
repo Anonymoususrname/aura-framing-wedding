@@ -107,7 +107,7 @@ document.getElementById('page-home').innerHTML = /* html */`
       </div>
     </div>
     <div class="feature-img">
-      <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=80" alt="Wedding ceremony" loading="lazy">
+      <img src="https://iili.io/qaZogig.jpg" alt="Wedding ceremony" loading="lazy">
       <div class="feature-img-overlay"></div>
     </div>
   </div>
@@ -121,7 +121,7 @@ document.getElementById('page-home').innerHTML = /* html */`
   </section>
   <div class="services-grid">
     <div class="service-card reveal"><span class="service-icon">💍</span><h3>Full Wedding Planning</h3><p>End-to-end coordination from venue scouting to the final farewell dance. We handle every detail so you can be fully present in your moment.</p></div>
-    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>FlBaby Shower</h3><p>"Crafting the perfect first chapter of your baby’s story.".</p></div>
+    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>Baby Shower</h3><p>"Crafting the perfect first chapter of your baby’s story.".</p></div>
     <div class="service-card reveal"><span class="service-icon">🍽️</span><h3>Catering </h3><p>"Beautifully plated, perfectly planned: Catering for the modern wedding.".</p></div>
     <div class="service-card reveal"><span class="service-icon">📸</span><h3>Photography &amp; Film</h3><p>Professional photographers who capture not just moments, but the emotions and stories between them.</p></div>
     <div class="service-card reveal"><span class="service-icon">🎵</span><h3>Entertainment</h3><p>From live orchestras to curated DJ sets — we orchestrate the perfect soundtrack to your celebration.</p></div>
