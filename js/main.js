@@ -64,8 +64,8 @@ document.getElementById('page-home').innerHTML = /* html */`
     <div class="hero-bg" id="heroBg"></div>
     <div class="hero-content">
       <span class="hero-tag">Luxury Wedding &amp; Event Planning</span>
-      <h1 class="hero-title">Where Love Becomes<br><em>Legend</em></h1>
-      <p class="hero-subtitle">Crafting extraordinary moments that last a lifetime — every detail, every emotion, perfectly woven.</p>
+      <h1 class="hero-title">Where Wedding Becomes<br><em>Memories</em></h1>
+      <p class="hero-subtitle">Crafting extraordinary moments that last a lifetime — every detail, every emotion.</p>
       <a href="#" class="hero-cta" data-page="booking"><span>Begin Your Journey</span></a>
     </div>
     <div class="hero-scroll">
@@ -77,19 +77,19 @@ document.getElementById('page-home').innerHTML = /* html */`
   <!-- Marquee ticker ──────────────────────── -->
   <div class="marquee-wrap">
     <div class="marquee-track">
-      <span class="marquee-item">Intimate Ceremonies <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Baby Shower <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Grand Receptions <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Floral Design <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Destination Weddings <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Luxury Planning <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Bespoke Experiences <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Memorable Experiences <span class="marquee-dot">✦</span></span>
       <!-- duplicate for seamless loop -->
-      <span class="marquee-item">Intimate Ceremonies <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Baby Shower <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Grand Receptions <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Floral Design <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">DJ Stage <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Destination Weddings <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Luxury Planning <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Bespoke Experiences <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Memorable Experiences <span class="marquee-dot">✦</span></span>
     </div>
   </div>
 
@@ -98,11 +98,11 @@ document.getElementById('page-home').innerHTML = /* html */`
     <div class="feature-text reveal">
       <span class="section-tag">Our Philosophy</span>
       <h2 class="section-title">Every love story<br>deserves an <em>extraordinary</em><br>beginning.</h2>
-      <p>At Eternelle, we believe weddings are not just events — they are the living expression of your love. Our team of dedicated artisans, planners, and visionaries transforms your dreams into breathtaking reality.</p>
+      <p>At Aura Framing, we believe weddings are not just events — they are the living expression of your love. Our team of dedicated photographers, planners, and visionaries transforms your dreams into breathtaking reality.</p>
       <p>With over a decade crafting unforgettable celebrations, we bring together the finest vendors, breathtaking venues, and meticulous attention to every detail.</p>
       <div class="stat-row">
-        <div class="stat"><div class="stat-num">450+</div><div class="stat-label">Weddings Crafted</div></div>
-        <div class="stat"><div class="stat-num">14</div><div class="stat-label">Years of Excellence</div></div>
+        <div class="stat"><div class="stat-num">200+</div><div class="stat-label">Weddings Crafted</div></div>
+        <div class="stat"><div class="stat-num">5</div><div class="stat-label">Years of Excellence</div></div>
         <div class="stat"><div class="stat-num">98%</div><div class="stat-label">Client Satisfaction</div></div>
       </div>
     </div>
@@ -121,29 +121,29 @@ document.getElementById('page-home').innerHTML = /* html */`
   </section>
   <div class="services-grid">
     <div class="service-card reveal"><span class="service-icon">💍</span><h3>Full Wedding Planning</h3><p>End-to-end coordination from venue scouting to the final farewell dance. We handle every detail so you can be fully present in your moment.</p></div>
-    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>Floral &amp; Décor Design</h3><p>Bespoke floral installations and tablescapes that transform any space into a living work of art tailored to your aesthetic.</p></div>
-    <div class="service-card reveal"><span class="service-icon">🍽️</span><h3>Catering &amp; Cuisine</h3><p>Curated menus from award-winning chefs, from intimate sit-down dinners to elaborate cocktail receptions.</p></div>
-    <div class="service-card reveal"><span class="service-icon">📸</span><h3>Photography &amp; Film</h3><p>World-class photographers who capture not just moments, but the emotions and stories between them.</p></div>
+    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>FlBaby Shower</h3><p>"Crafting the perfect first chapter of your baby’s story.".</p></div>
+    <div class="service-card reveal"><span class="service-icon">🍽️</span><h3>Catering </h3><p>"Beautifully plated, perfectly planned: Catering for the modern wedding.".</p></div>
+    <div class="service-card reveal"><span class="service-icon">📸</span><h3>Photography &amp; Film</h3><p>Professional photographers who capture not just moments, but the emotions and stories between them.</p></div>
     <div class="service-card reveal"><span class="service-icon">🎵</span><h3>Entertainment</h3><p>From live orchestras to curated DJ sets — we orchestrate the perfect soundtrack to your celebration.</p></div>
-    <div class="service-card reveal"><span class="service-icon">✈️</span><h3>Destination Weddings</h3><p>Dream weddings across the globe — logistics, legalities, and every local vendor handled for you.</p></div>
+    <div class="service-card reveal"><span class="service-icon">✈️</span><h3>Digital Marketing</h3><p>we build digital ecosystems that turn local searches into loyal clients. From SEO-optimized websites to viral-ready short-form content.</p></div>
   </div>
 
   <!-- Testimonials ────────────────────────── -->
   <div class="testimonial-section">
     <span class="section-tag" style="color:var(--gold)">Stories of Love</span>
-    <h2 class="section-title">What Our Couples Say</h2>
+    <h2 class="section-title">What Our Client Say</h2>
     <div class="testimonial-carousel">
       <div class="testimonial active">
-        <p class="testimonial-quote">"Eternelle didn't just plan our wedding — they understood the very essence of our relationship and translated it into the most beautiful day of our lives."</p>
+        <p class="testimonial-quote">"Aura Framing didn't just plan our wedding — they understood the very essence of our relationship and translated it into the most beautiful day of our lives."</p>
         <span class="testimonial-author">— Priya &amp; Arjun, Kerala 2024</span>
       </div>
       <div class="testimonial">
-        <p class="testimonial-quote">"From our first consultation to the last dance, the team was impeccable. Our Tuscany wedding was pure, absolute magic."</p>
-        <span class="testimonial-author">— Sophie &amp; James, Tuscany 2024</span>
+        <p class="testimonial-quote">"From our first consultation to the last dance, the team was incredible. Our wedding was pure, absolute magic."</p>
+        <span class="testimonial-author">— Pavi &amp; Ezhil, Coimbatore 2026</span>
       </div>
       <div class="testimonial">
-        <p class="testimonial-quote">"The floral design alone was worth everything. Guests are still talking about it six months later. Eternelle is in a class of their own."</p>
-        <span class="testimonial-author">— Nadia &amp; Rohan, Mumbai 2023</span>
+        <p class="testimonial-quote">"The floral design alone was worth everything. Guests are still talking about it six months later. Aura Framing is in a class of their own."</p>
+        <span class="testimonial-author">— Nadia &amp; Rohan, Tirupur 2025</span>
       </div>
     </div>
     <div class="testimonial-dots">
@@ -155,10 +155,10 @@ document.getElementById('page-home').innerHTML = /* html */`
 
   <!-- Gallery strip ───────────────────────── -->
   <div class="gallery-strip">
-    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?w=600&q=80" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
-    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
-    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&q=80" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
-    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=600&q=80" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
+    <div class="gallery-item"><img src="https://iili.io/qaiaTZB.jpg" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
+    <div class="gallery-item"><img src="https://iili.io/qaigRmx.jpg" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
+    <div class="gallery-item"><img src="https://iili.io/qaisLEQ.jpg" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
+    <div class="gallery-item"><img src="https://iili.io/qaimDiu.jpg" alt="" loading="lazy"><div class="gallery-item-overlay"></div></div>
   </div>
 
   ${footerHTML()}
@@ -182,7 +182,7 @@ document.getElementById('page-about').innerHTML = /* html */`
     <div class="about-content reveal">
       <span class="section-tag">Since 2022</span>
       <h2 class="section-title">Born from a <em>love</em> of love.</h2>
-      <p>AURA FRAMING was founded by PRABHU DEV, a former event designer who fell in love with the transformative power of a perfectly planned celebration. What began as a boutique studio in Coimbatore has grown into a full-service luxury wedding company trusted by discerning couples across India and beyond.</p>
+      <p>AURA FRAMING was founded by PRABHU DEV, a former event designer who fell in love with the transformative power of a perfectly planned celebration. What began as a Photographer in Coimbatore has grown into a full-service luxury wedding company trusted by discerning couples across India and beyond.</p>
       <p>Our team of 35+ dedicated professionals brings together backgrounds in interior design, culinary arts, photography, floristry, and hospitality — united by a single purpose: to make your most important day extraordinary in every conceivable way.</p>
       <p>We don't just plan weddings. We architect memories, curate emotions, and create the stage upon which the most beautiful chapter of your story begins.</p>
     </div>
@@ -214,24 +214,24 @@ document.getElementById('page-about').innerHTML = /* html */`
     </div>
     <div class="team-grid">
       <div class="team-card reveal">
-        <div class="team-img"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Maya Krishnan" loading="lazy"></div>
+        <div class="team-img"><img src="https://iili.io/qastjkB.jpg" alt="Prabhu Dev" loading="lazy"></div>
         <h3>Prabhu Dev</h3>
         <div class="team-role">Founder &amp; Creative Photographer</div>
       </div>
       <div class="team-card reveal">
-        <div class="team-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Aryan Mehta" loading="lazy"></div>
+        <div class="team-img"><img src="https://iili.io/qaigRmx.jpg" alt="Aryan Mehta" loading="lazy"></div>
         <h3>Naveen</h3>
         <div class="team-role">Lead Editor</div>
       </div>
       <div class="team-card reveal">
         <div class="team-img"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=600&q=80" alt="Priya Nair" loading="lazy"></div>
-        <h3>Priya Nair</h3>
-        <div class="team-role">Head of Floral Design</div>
+        <h3>Priya</h3>
+        <div class="team-role">Graphic Designer</div>
       </div>
     </div>
   </div>
 
-  ${footerHTML('Crafting extraordinary weddings since 2010.')}
+  ${footerHTML('Crafting extraordinary weddings since 2020.')}
 `;
 
 
@@ -252,7 +252,7 @@ document.getElementById('page-services').innerHTML = /* html */`
 
     <div class="service-row reveal">
       <div class="service-row-img">
-        <img src="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?w=900&q=80" alt="Full Planning" loading="lazy">
+        <img src="https://iili.io/qaiaTZB.jpg" alt="Full Planning" loading="lazy">
         <div class="service-row-img-tag">Full Planning</div>
       </div>
       <div class="service-row-content">
@@ -312,7 +312,7 @@ document.getElementById('page-services').innerHTML = /* html */`
 
     <div class="service-row reverse reveal">
       <div class="service-row-img">
-        <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=900&q=80" alt="Photography" loading="lazy">
+        <img src="https://iili.io/qaiaTZB.jpg" alt="Photography" loading="lazy">
         <div class="service-row-img-tag">Photography &amp; Film</div>
       </div>
       <div class="service-row-content">
