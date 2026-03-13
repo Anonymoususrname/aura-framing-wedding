@@ -76,17 +76,17 @@ document.getElementById('page-home').innerHTML = /* html */`
     <div class="marquee-track">
       <span class="marquee-item">Baby Shower <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Grand Receptions <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Floral Design <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Model Shoots<span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Destination Weddings <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Luxury Planning <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Memorable Experiences <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Branding <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Events<span class="marquee-dot">✦</span></span>
       <!-- duplicate for seamless loop -->
       <span class="marquee-item">Baby Shower <span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Grand Receptions <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">DJ Stage <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Model Shoots<span class="marquee-dot">✦</span></span>
       <span class="marquee-item">Destination Weddings <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Luxury Planning <span class="marquee-dot">✦</span></span>
-      <span class="marquee-item">Memorable Experiences <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Branding <span class="marquee-dot">✦</span></span>
+      <span class="marquee-item">Events<span class="marquee-dot">✦</span></span>
     </div>
   </div>
 
@@ -98,13 +98,13 @@ document.getElementById('page-home').innerHTML = /* html */`
       <p>At Aura Framing, we believe weddings are not just events — they are the living expression of your love. Our team of dedicated photographers, planners, and visionaries transforms your dreams into breathtaking reality.</p>
       <p>With over a decade crafting unforgettable celebrations, we bring together the finest vendors, breathtaking venues, and meticulous attention to every detail.</p>
       <div class="stat-row">
-        <div class="stat"><div class="stat-num">200+</div><div class="stat-label">Weddings Crafted</div></div>
+        <div class="stat"><div class="stat-num">100+</div><div class="stat-label">Weddings Crafted</div></div>
         <div class="stat"><div class="stat-num">5</div><div class="stat-label">Years of Excellence</div></div>
-        <div class="stat"><div class="stat-num">98%</div><div class="stat-label">Client Satisfaction</div></div>
+        <div class="stat"><div class="stat-num">87%</div><div class="stat-label">Client Satisfaction</div></div>
       </div>
     </div>
     <div class="feature-img">
-      <img src="https://iili.io/qaZogig.jpg" alt="Wedding ceremony" loading="lazy">
+      <img src="https://iili.io/qcZaKml.jpg" alt="Wedding ceremony" loading="lazy">
       <div class="feature-img-overlay"></div>
     </div>
   </div>
@@ -118,10 +118,10 @@ document.getElementById('page-home').innerHTML = /* html */`
   </section>
   <div class="services-grid">
     <div class="service-card reveal"><span class="service-icon">💍</span><h3>Full Wedding Planning</h3><p>End-to-end coordination from venue scouting to the final farewell dance. We handle every detail so you can be fully present in your moment.</p></div>
-    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>Baby Shower</h3><p>"Crafting the perfect first chapter of your baby’s story.".</p></div>
-    <div class="service-card reveal"><span class="service-icon">🍽️</span><h3>Catering </h3><p>"Beautifully plated, perfectly planned: Catering for the modern wedding.".</p></div>
+    <div class="service-card reveal"><span class="service-icon">🌸</span><h3>Pre &amp; Post-Wedding Shoot</h3><p>"We create cinematic and emotional moments that reflect the couple’s journey, personality, and chemistry. With carefully chosen locations, creative concepts, and natural storytelling.".</p></div>
+    <div class="service-card reveal"><span class="service-icon">🍽️</span><h3>Modeling Shoot </h3><p>"We create visually striking images that help models build a strong portfolio for agencies, brands, and personal promotion. With professional lighting, creative direction, and attention to detail.".</p></div>
     <div class="service-card reveal"><span class="service-icon">📸</span><h3>Photography &amp; Film</h3><p>Professional photographers who capture not just moments, but the emotions and stories between them.</p></div>
-    <div class="service-card reveal"><span class="service-icon">🎵</span><h3>Entertainment</h3><p>From live orchestras to curated DJ sets — we orchestrate the perfect soundtrack to your celebration.</p></div>
+    <div class="service-card reveal"><span class="service-icon">🎵</span><h3>Branding Shoot</h3><p>We capture authentic images that represent your brand identity, values, and professionalism. Whether it's for websites, social media, or marketing campaigns, our branding photography creates a consistent and impactful visual.</p></div>
     <div class="service-card reveal"><span class="service-icon">✈️</span><h3>Digital Marketing</h3><p>we build digital ecosystems that turn local searches into loyal clients. From SEO-optimized websites to viral-ready short-form content.</p></div>
   </div>
 
@@ -184,7 +184,7 @@ document.getElementById('page-about').innerHTML = /* html */`
       <p>We don't just plan weddings. We architect memories, curate emotions, and create the stage upon which the most beautiful chapter of your story begins.</p>
     </div>
     <div class="about-img">
-      <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=900&q=80" alt="Our team" loading="lazy">
+      <img src="https://iili.io/qcbg1CQ.jpg" alt="Our team" loading="lazy">
       <div class="about-img-caption">"Every detail is a love letter to your story."</div>
     </div>
   </div>
@@ -220,11 +220,6 @@ document.getElementById('page-about').innerHTML = /* html */`
         <h3>Naveen</h3>
         <div class="team-role">Lead Editor</div>
       </div>
-      <div class="team-card reveal">
-        <div class="team-img"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=600&q=80" alt="Priya Nair" loading="lazy"></div>
-        <h3>Priya</h3>
-        <div class="team-role">Graphic Designer</div>
-      </div>
     </div>
   </div>
 
@@ -249,7 +244,7 @@ document.getElementById('page-services').innerHTML = /* html */`
 
     <div class="service-row reveal">
       <div class="service-row-img">
-        <img src="https://iili.io/qaiaTZB.jpg" alt="Full Planning" loading="lazy">
+        <img src="https://iili.io/qcpd8tj.jpg" alt="Full Planning" loading="lazy">
         <div class="service-row-img-tag">Full Planning</div>
       </div>
       <div class="service-row-content">
@@ -269,7 +264,7 @@ document.getElementById('page-services').innerHTML = /* html */`
 
     <div class="service-row reverse reveal">
       <div class="service-row-img">
-        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=900&q=80" alt="Floral Design" loading="lazy">
+        <img src="https://iili.io/qcyQlUJ.jpg" alt="Floral Design" loading="lazy">
         <div class="service-row-img-tag">Floral &amp; Décor</div>
       </div>
       <div class="service-row-content">
@@ -293,15 +288,15 @@ document.getElementById('page-services').innerHTML = /* html */`
         <div class="service-row-img-tag">Cuisine</div>
       </div>
       <div class="service-row-content">
-        <h2>Culinary <em>Experiences</em></h2>
-        <p>We partner with Kerala's finest chefs to curate menus that blend tradition with contemporary flair — ensuring every bite is as memorable as every moment.</p>
-        <p>Whether you envision a traditional Kerala sadya, a refined continental spread, or an eclectic fusion feast, our culinary team delivers perfection on every plate.</p>
+        <h2>Branding <em>Shoot</em></h2>
+        <p>A branding shoot helps businesses tell their story through powerful visuals. We capture authentic images that represent your brand identity, values, and professionalism.</p>
+        <p>Whether it's for websites, social media, or marketing campaigns, our branding photography creates a consistent and impactful visual presence for your business.</p>
         <div class="service-includes">
           <h4>Includes</h4>
           <div class="includes-list">
-            <span class="include-tag">Custom Menus</span><span class="include-tag">Tasting Sessions</span>
-            <span class="include-tag">Bar Curation</span><span class="include-tag">Dietary Options</span>
-            <span class="include-tag">Dessert Bars</span>
+            <span class="include-tag">Product photography</span><span class="include-tag">Social media content creation</span>
+            <span class="include-tag">lifestyle shots</span><span class="include-tag">Cinematic brand video</span>
+            <span class="include-tag">Business portrait</span>
           </div>
         </div>
       </div>
@@ -309,7 +304,7 @@ document.getElementById('page-services').innerHTML = /* html */`
 
     <div class="service-row reverse reveal">
       <div class="service-row-img">
-        <img src="https://iili.io/qaiaTZB.jpg" alt="Photography" loading="lazy">
+        <img src="https://iili.io/qlHl5eS.webp" alt="Photography" loading="lazy">
         <div class="service-row-img-tag">Photography &amp; Film</div>
       </div>
       <div class="service-row-content">
@@ -337,8 +332,8 @@ document.getElementById('page-services').innerHTML = /* html */`
     </div>
     <div class="pricing-grid">
       <div class="pricing-card reveal">
-        <span class="pricing-tier">Blossom</span>
-        <div class="pricing-price">₹3.5L</div>
+        <span class="pricing-tier">Classic</span>
+        <div class="pricing-price">₹37k</div>
         <div class="pricing-from">Starting price</div>
         <ul class="pricing-features">
           <li>Day-of Coordination</li><li>Basic Floral Package</li>
@@ -348,7 +343,7 @@ document.getElementById('page-services').innerHTML = /* html */`
       </div>
       <div class="pricing-card featured reveal">
         <span class="featured-tag">Most Popular</span>
-        <span class="pricing-tier" style="color:var(--gold)">Eternelle</span>
+        <span class="pricing-tier" style="color:var(--gold)">Silver</span>
         <div class="pricing-price" style="color:var(--cream)">₹8.5L</div>
         <div class="pricing-from" style="color:rgba(250,246,240,0.5)">Starting price</div>
         <ul class="pricing-features">
@@ -359,7 +354,7 @@ document.getElementById('page-services').innerHTML = /* html */`
         <a href="#" class="btn-outline" data-page="booking">Book Now</a>
       </div>
       <div class="pricing-card reveal">
-        <span class="pricing-tier">Prestige</span>
+        <span class="pricing-tier">Gold</span>
         <div class="pricing-price">₹18L+</div>
         <div class="pricing-from">Starting price</div>
         <ul class="pricing-features">
