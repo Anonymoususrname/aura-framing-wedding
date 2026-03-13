@@ -32,23 +32,20 @@ function footerHTML(tagline = 'Crafting extraordinary weddings and celebrations 
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:naveenpunith01@gmail.com">naveenpunith01@gmail.com</a>
+        <a href="mailto:auraframing22@gmail.com">auraframing22@gmail.com</a>
         <a href="tel:+917708697816">+91 77086 97816</a>
         <a href="#">Perur,Coimbatore,Tamil Nadu</a>
       </div>
       <div class="footer-col">
         <h4>Follow</h4>
-        <a href="#">Instagram</a>
-        <a href="#">Youtube</a>
-        <a href="#">Whatsapp</a>
+        <a href="https://www.instagram.com/auraframing?igsh=MTE3azhlbG41MG1zZQ%3D%3D&utm_source=qr">Instagram</a>
       </div>
     </div>
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 AURA FRAMING. All rights reserved.</p>
       <div class="social-links">
-        <a href="#">Instagram</a>
-        <a href="#">Youtube</a>
-        <a href="#">Whatsapp</a>
+        <a href="https://www.instagram.com/auraframing?igsh=MTE3azhlbG41MG1zZQ%3D%3D&utm_source=qr">Instagram</a>
+        <a href="https://wa.me/7708697816">Whatsapp</a>
       </div>
     </div>
   </footer>`;
